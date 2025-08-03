@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { ChevronLeft, ChevronRight, User, Target, Rocket, BookOpen, Code, Zap, Database, Cloud, Users, TrendingUp, MessageCircle, CheckCircle } from 'lucide-react';
+import { ChevronLeft, ChevronRight, User, Target, Rocket, BookOpen, Code, Zap, Database, Cloud, Users, TrendingUp, MessageCircle, CheckCircle, Github, Twitter, Linkedin, Mail } from 'lucide-react';
 import './index.css';
 
 /**
@@ -75,25 +75,25 @@ function App() {
             <div className="flex justify-center space-x-8">
               <div className="flex items-center space-x-2 text-purple-200">
                 <div className="w-8 h-8 bg-purple-600/40 rounded-full flex items-center justify-center">
-                  <span className="text-sm">🐙</span>
+                  <Github className="w-4 h-4 text-white" />
                 </div>
                 <span>GitHub</span>
               </div>
               <div className="flex items-center space-x-2 text-purple-200">
                 <div className="w-8 h-8 bg-purple-600/40 rounded-full flex items-center justify-center">
-                  <span className="text-sm">🐦</span>
+                  <Twitter className="w-4 h-4 text-white" />
                 </div>
                 <span>Twitter</span>
               </div>
               <div className="flex items-center space-x-2 text-purple-200">
                 <div className="w-8 h-8 bg-purple-600/40 rounded-full flex items-center justify-center">
-                  <span className="text-sm">📧</span>
+                  <Linkedin className="w-4 h-4 text-white" />
                 </div>
                 <span>LinkedIn</span>
               </div>
               <div className="flex items-center space-x-2 text-purple-200">
                 <div className="w-8 h-8 bg-purple-600/40 rounded-full flex items-center justify-center">
-                  <span className="text-sm">✉️</span>
+                  <Mail className="w-4 h-4 text-white" />
                 </div>
                 <span>Email</span>
               </div>
