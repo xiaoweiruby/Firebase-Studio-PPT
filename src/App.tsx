@@ -946,10 +946,6 @@ function App() {
         </div>
       </div>
 
-      {/* 键盘提示 */}
-      <div className="fixed bottom-4 left-4 bg-gradient-to-r from-purple-800/90 to-blue-800/90 backdrop-blur-sm text-white px-4 py-2 rounded-lg text-sm border border-purple-500/30 shadow-lg">
-        使用 ← → 键或空格键导航
-      </div>
     </div>
   );
 }
